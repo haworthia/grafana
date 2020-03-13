@@ -129,7 +129,7 @@ i.navbar-page-btn__search {
 }
 
 .navbar-button {
-  @include buttonBackground($btn-inverse-bg, $btn-inverse-bg-hl, $btn-inverse-text-color, $btn-inverse-text-shadow);
+  // @include buttonBackground($btn-inverse-bg, $btn-inverse-bg-hl, $btn-inverse-text-color, $btn-inverse-text-shadow);
 
   display: flex;
   align-items: center;
@@ -137,7 +137,7 @@ i.navbar-page-btn__search {
   padding: 6px $space-sm;
   line-height: 18px;
   color: $text-muted;
-  border: 1px solid $navbar-button-border;
+  // border: 1px solid $navbar-button-border;
   margin-left: $space-xs;
   white-space: nowrap;
 

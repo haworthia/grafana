@@ -89,6 +89,16 @@ div.flot-text {
   }
 }
 
+.panel-sidebar {
+  display: flex;
+  position: fixed;
+  margin-left: 50%;
+  top: 0;
+  z-index: 100000;
+  width: 50%;
+  height: 100%;
+}
+
 // For larger screens, set back to hidden to avoid double scroll bars
 @include media-breakpoint-up(md) {
   .panel-content {

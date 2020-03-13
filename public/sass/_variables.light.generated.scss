@@ -40,6 +40,7 @@ $gray-4: #c7d0d9;
 $gray-5: #dde4ed;
 $gray-6: #e9edf2;
 $gray-7: #f7f8fa;
+$gray-8: #4d5359;
 
 $white: #ffffff;
 
@@ -50,7 +51,7 @@ $red: $red-base;
 $yellow: #ff851b;
 $orange: #ff7941;
 $purple: #9954bb;
-$variable: #0083b3;
+$variable: #1e2028;
 
 $brand-primary: #ff7941;
 $brand-success: #3eb15b;
@@ -72,7 +73,7 @@ $critical: #c4162a;
 // Scaffolding
 // -------------------------
 $body-bg: #f7f8fa;
-$page-bg: #f7f8fa;
+$page-bg: transparent;
 
 $body-color: #52545c;
 $text-color: #52545c;
@@ -191,7 +192,7 @@ $input-bg: $white;
 $input-bg-disabled: $gray-5;
 
 $input-color: $dark-2;
-$input-border-color: $gray-5;
+$input-border-color: $gray-8;
 $input-box-shadow: none;
 $input-border-focus: $gray-5 !default;
 $input-box-shadow-focus: $blue-light !default;

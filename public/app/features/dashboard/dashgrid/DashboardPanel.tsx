@@ -153,7 +153,11 @@ export class DashboardPanelUnconnected extends PureComponent<Props, State> {
             </div>
           )}
         />
-        {panel.isEditing && <PanelEditor panel={panel} plugin={plugin} dashboard={dashboard} />}
+        {panel.isEditing && (
+          <div className="panel-sidebar">
+            <PanelEditor panel={panel} plugin={plugin} dashboard={dashboard} />
+          </div>
+        )}
       </div>
     );
   }

@@ -10,7 +10,6 @@
         &nbsp;&nbsp;<i class="fa fa-tag"></i>&nbsp; {{tag.text}}
       </span>
     </span>
-    <i class="fa fa-caret-down" style="font-size:12px"></i>
   </a>
 
   <input
@@ -21,6 +20,8 @@
     ng-model="vm.search.query"
     ng-change="vm.debouncedQueryChanged()"
   />
+
+  <i class="fa fa-caret-down" style="font-size:12px"></i>
 
   <div
     class="variable-value-dropdown"

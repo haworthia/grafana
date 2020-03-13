@@ -1,6 +1,6 @@
 .submenu-controls {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
   align-items: flex-start;
@@ -29,7 +29,7 @@
   .fa-caret-down {
     font-size: 75%;
     position: relative;
-    top: -1px;
+    top: 12px;
     left: 1px;
   }
 }
@@ -37,12 +37,13 @@
 .variable-value-link {
   padding-right: 10px;
   padding: $space-sm;
-  background-color: $input-bg;
-  border: 1px solid $input-border-color;
-  border-radius: $input-border-radius;
+  // background-color: $input-bg;
+  border-bottom: 1px solid $input-border-color;
+  // border-radius: $input-border-radius;
   display: inline-block;
   color: $text-color;
   height: $input-height;
+  min-width: 100px;
 
   .label-tag {
     margin: 0 5px;
@@ -50,20 +51,20 @@
 }
 
 .variable-link-wrapper {
-  display: inline-block;
+  display: flex;
   position: relative;
 }
 
 .variable-value-dropdown {
   position: absolute;
-  top: 47px;
+  top: 35px;
   min-width: 150px;
   max-height: 400px;
   min-height: 150px;
   overflow-y: auto;
   overflow-x: hidden;
   background-color: $dropdownBackground;
-  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   z-index: $zindex-typeahead;
   font-size: $font-size-base;
   border-radius: 3px 3px 0 0;

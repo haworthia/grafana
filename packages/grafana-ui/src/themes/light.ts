@@ -22,6 +22,7 @@ const basicColors = {
   gray5: '#dde4ed',
   gray6: '#e9edf2',
   gray7: '#f7f8fa',
+  gray8: '#4d5359',
   grayBlue: '#212327', // not used in light theme
   blueBase: '#3274d9',
   blueShade: '#1f60c4',
@@ -48,7 +49,7 @@ const lightTheme: GrafanaTheme = {
   name: 'Grafana Light',
   colors: {
     ...basicColors,
-    variable: basicColors.blue,
+    variable: basicColors.dark1,
     inputBlack: '#09090b',
     brandPrimary: basicColors.orange,
     brandSuccess: basicColors.greenBase,
@@ -63,7 +64,7 @@ const lightTheme: GrafanaTheme = {
     warn: '#f79520',
     critical: basicColors.redShade,
     bodyBg: basicColors.gray7,
-    pageBg: basicColors.gray7,
+    pageBg: 'transparent',
 
     // Text colors
     body: basicColors.gray1,

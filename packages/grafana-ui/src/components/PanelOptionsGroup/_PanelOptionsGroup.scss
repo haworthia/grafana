@@ -7,9 +7,10 @@
 
 .panel-options-group__header {
   padding: 4px 8px;
-  background: $panel-options-group-header-bg;
+  background: transparent;
   position: relative;
-  border-radius: $border-radius $border-radius 0 0;
+  // border-radius: $border-radius $border-radius 0 0;
+  border-bottom: 1px solid $input-border-color;
   display: flex;
   align-items: center;
 

@@ -37,6 +37,7 @@ $gray-4: ${theme.colors.gray4};
 $gray-5: ${theme.colors.gray5};
 $gray-6: ${theme.colors.gray6};
 $gray-7: ${theme.colors.gray7};
+$gray-8: ${theme.colors.gray8};
 
 $white: ${theme.colors.white};
 
@@ -188,7 +189,7 @@ $input-bg: $white;
 $input-bg-disabled: $gray-5;
 
 $input-color: $dark-2;
-$input-border-color: $gray-5;
+$input-border-color: $gray-8;
 $input-box-shadow: none;
 $input-border-focus: $gray-5 !default;
 $input-box-shadow-focus: $blue-light !default;
